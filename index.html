@@ -1,46 +1,38 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
 
-    <body>
-        
-        
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
     <h1>Fórmula de Bhaskara</h1>
 
-    <label id="labelA" for="valorA"> 
-        Valor de <span class="var-text">a</span>:
-    <br>
-    <input type="number" id="valorA" placeholder="a"> 
+    <label class="labelEntrada" id="labelA" for="valorA">
+      Valor de <span class="var-text">a</span>:
     </label>
+    <input class="entrada" type="number" id="valorA" placeholder="a">
 
-    <br> 
-    <br>
-
-    <label id="labelB" for="valorB"> 
-        Valor de <span class="var-text">b</span>:
-    <br>
-    <input type="number" id="valorB" placeholder="b">
-    </label>    
-
-    <br>
-    <br>
-
-    <label id="labelC" for="valorC"> 
-        Valor de <span class="var-text">c</span>:
-    <br>
-    <input type="number" id="valorC" placeholder="c"> 
+    <label class="labelEntrada" id="labelB" for="valorB">
+      Valor de <span class="var-text">b</span>:
     </label>
+    <input class="entrada" type="number" id="valorB" placeholder="b">
 
-    <br>
-    <br> 
+    <label class="labelEntrada" id="labelC" for="valorC">
+      Valor de <span class="var-text">c</span>:
+    </label>
+    <input class="entrada" type="number" id="valorC" placeholder="c">
 
     <button id="btnCalcular">Calcular</button>
 
     <div id="resultadoX1">x1: </div>
     <div id="resultadoX2">x2: </div>
+  </main>
 
-    <script src="bhaskara.js"></script>
 
-    </body>
+
+  <script src="bhaskara.js"></script>
+
+</body>
+
 </html>
