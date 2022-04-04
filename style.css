@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+    
+
+    body {
+    background-color: rgba(154, 160, 163, 0.404);
+    font: normal 1.25em 'Open Sans', sans-serif;
+    text-align: center
+}
+
+    h1{
+    font-size: 1.5em;
+    color: #204264;;
+    text-decoration: underline;
+}
+
+    #btnCalcular {
+        background-color: rgb(225, 255, 255);
+        height: 32px ;
+        border-radius: 10px;
+        height: 3em;
+        padding: 10px;
+    }
+
+    .var-text {
+        color: rgb(24, 124, 255);
+    }
+
+    #labelC {
+
+        padding: 4px;
+        border-radius: 5px;
+    }
+
+    #labelB {
+        padding: 4px;
+        border-radius: 5px;
+    }
+
+    #labelA {
+
+        padding: 4px;
+        border-radius: 5px;
+    }
+
+
+
+
